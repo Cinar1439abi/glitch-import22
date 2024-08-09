@@ -3,7 +3,7 @@ module.exports = {
     name: `resources`,
   },
   async execute(interaction, client) {
-    await interaction.edit.message({
+    await interaction.reply({
       content: `bla bla`
     });
   }
